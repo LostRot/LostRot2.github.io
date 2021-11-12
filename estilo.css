@@ -1,0 +1,169 @@
+/*Guia 61b*/
+/*Maynor Josué Abrego Guillén*/
+
+#cuerpo{
+    position:relative;
+   margin-left: 5%;
+     margin-right: 5%;
+   
+    
+}   
+	
+
+body {
+	
+        
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #666;
+        background: #f2f2f2; 
+        font-size: 1em;
+        line-height: 1.5em;
+    
+}
+
+
+
+
+
+#tabla{
+    
+    height: auto;
+    background: rgb(27, 27, 27);
+    
+    border-radius: 15px;
+	border-color: rgb(7, 7, 7);
+    border-style:groove;
+    margin: 25px;
+    text-align: justify;
+    color: rgb(201, 197, 197);
+  }
+#price {cursor:pointer;}
+li {  font-family: Helvetica, Arial, sans-serif; color: #666;}
+img {width:3cm;height:3cm;}
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
+
+
+
+
+
+
+
+
+
+#main-header {
+	background: #333;
+    color:rgb(221, 220, 220);
+	height: 80px;
+    left:0px;
+    right:0px;
+     
+}	
+	#main-header a {
+        color:rgb(221, 220, 220);
+	}
+
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+    
+}
+	#logo-header:hover {
+		color:#0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+
+    nav {
+        float: right;
+    }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            padding-right: 20px;
+        }
+        
+            nav ul li {
+                display: inline-block;
+                line-height: 80px;
+            }
+                
+                nav ul li a {
+                    display: block;
+                    padding: 0 10px;
+                    text-decoration: none;
+                }
+                
+                    nav ul li a:hover {
+                        background: #0b76a6;
+                    }
+#listado{
+    text-align: center;
+   
+}
+#hola{
+    font-family: Helvetica, Arial, sans-serif;
+       
+        font-size: 0.9em;
+        line-height: 1em;
+        text-align: justify;
+        
+       
+}
+#border{
+   background-color: #333;
+   color: rgb(201, 197, 197);
+  
+    border-style:groove;
+    text-align: center;
+}
+
+
+#lol{
+   
+    text-decoration: none;
+    padding: 10px; 
+    align-content: center;
+    
+    background-color: #333;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+#t2{
+    height: auto; 
+    border-radius: 5px;
+	border-color: rgb(7, 7, 7);
+    border-style:groove;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    
+}
+
